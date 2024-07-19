@@ -1,0 +1,12 @@
+.brands_container {
+	width: 1800px;
+	padding: 66px 0;
+	background: #ebd96b;
+}
+
+.brands_list {
+	display: flex;
+	gap: 120px;
+	justify-content: center;
+	align-items: center;
+}
