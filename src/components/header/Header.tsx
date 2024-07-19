@@ -1,6 +1,6 @@
 import { FC } from "react";
 import css from "./Header.module.css";
-import logo from "../../icons/logo.svg";
+import logoImg from "../../icons/logo.svg";
 
 export const Header: FC = () => {
 	return (
@@ -9,7 +9,7 @@ export const Header: FC = () => {
 				<div className={css.header_row}>
 					<div className={css.header_logo}>
 						<img
-							src={logo}
+							src={logoImg}
 							alt="logo fashion"
 						/>
 						<span>Fashion</span>

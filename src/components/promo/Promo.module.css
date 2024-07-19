@@ -1,0 +1,51 @@
+.promo {
+	max-width: 1720px;
+	margin: 0 auto;
+	margin-bottom: 63px;
+}
+
+.promo_content {
+	display: flex;
+	column-gap: 24px;
+	padding-top: 68px;
+	padding-left: 120px;
+	border-radius: 59px;
+	background-color: #f4f6f5;
+}
+
+.promo_title {
+	width: 474px;
+	height: 473px;
+	font-size: 96px;
+	font-weight: 900;
+	line-height: 120px;
+	margin-bottom: 40px;
+}
+
+.promo_description {
+	width: 606px;
+	height: 58px;
+	font-size: 32px;
+	font-weight: 400;
+	letter-spacing: -1.6px;
+	margin-bottom: 32px;
+}
+
+.promo_united {
+	display: flex;
+	align-items: center;
+}
+
+.promo_decor {
+	margin-right: 34px;
+}
+
+.promo_button {
+	width: 221px;
+	height: 82px;
+	border-radius: 10px;
+	background: #000;
+	color: #fff;
+	font-size: 30px;
+	font-weight: 500;
+}

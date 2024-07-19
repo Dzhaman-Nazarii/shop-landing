@@ -1,10 +1,13 @@
 import { FC } from "react";
 import { Header } from "../header/Header";
+import { Promo } from "../promo/Promo";
+import css from './App.module.css'
 
 export const App: FC = () => {
 	return (
-		<div className="App">
+		<section className={css.app}>
 			<Header/>
-		</div>
+			<Promo/>
+		</section>
 	);
 };
