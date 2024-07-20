@@ -1,0 +1,26 @@
+.store_container {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.store_title {
+	font-size: 48px;
+	font-weight: 900;
+	line-height: 150%;
+	letter-spacing: 2.88px;
+}
+
+.store_description {
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 35px;
+	letter-spacing: -0.96px;
+	margin-top: 40px;
+}
+
+.store_apps {
+	margin-top: 65px;
+	display: flex;
+	gap: 20px;
+}

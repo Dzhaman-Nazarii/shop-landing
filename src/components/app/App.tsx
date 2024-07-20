@@ -6,6 +6,7 @@ import { Brands } from "../brands/Brands";
 import { Arrivals } from "../arrivals/Arrivals";
 import { Payday } from "../payday/Payday";
 import { Favourite } from "../favourite/Favourite";
+import { Store } from "../store/Store";
 
 export const App: FC = () => {
 	return (
@@ -24,6 +25,7 @@ export const App: FC = () => {
 				description={""}
 				img={""}
 			/>
+			<Store />
 		</section>
 	);
 };
