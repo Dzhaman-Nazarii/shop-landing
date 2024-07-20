@@ -8,6 +8,7 @@ import { Payday } from "../payday/Payday";
 import { Favourite } from "../favourite/Favourite";
 import { Store } from "../store/Store";
 import { Mailing } from "../mailing/Mailing";
+import { Footer } from "../footer/Footer";
 
 export const App: FC = () => {
 	return (
@@ -28,6 +29,7 @@ export const App: FC = () => {
 			/>
 			<Store />
 			<Mailing />
+			<Footer />
 		</section>
 	);
 };
