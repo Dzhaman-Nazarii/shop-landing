@@ -1,0 +1,41 @@
+.favourite {
+	max-width: 1720px;
+	margin: 0 auto;
+}
+
+.favourite_container {
+	padding-top: 120px;
+	padding-bottom: 143px;
+}
+
+.favourite_header {
+	margin-bottom: 100px;
+}
+
+.favourite_title {
+	display: inline-block;
+	font-size: 48px;
+	font-weight: 900;
+	line-height: 50px;
+	letter-spacing: 2.88px;
+	text-transform: uppercase;
+	position: relative;
+}
+
+.favourite_title::after {
+	z-index: -1;
+	content: "";
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	width: 190px;
+	height: 32px;
+
+	background-image: url(../../icons//decor.svg);
+	background-repeat: no-repeat;
+}
+
+.favourite_cards {
+	display: flex;
+	justify-content: space-between;
+}

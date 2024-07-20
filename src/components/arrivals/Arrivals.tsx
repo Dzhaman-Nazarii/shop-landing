@@ -1,21 +1,7 @@
 import { FC } from "react";
 import css from "./Arrivals.module.css";
 import { Card } from "../card/Card";
-import hoodiesImg from '../../images/hoodies.jpg';
-import coatsImg from '../../images/coats.jpg';
-import teesImg from '../../images/tees.jpg';
-
-interface ICard {
-    title: string,
-    description: string,
-    img: string
-}
-
-const arrivalsData: ICard[] = [
-    { title: "Hoodies & Sweatshirt", description: "Explore Now!", img: hoodiesImg },
-    { title: "New Sneakers", description: "Check them out!", img: coatsImg },
-    { title: "Stylish Jackets", description: "Get Yours Today!", img: teesImg }
-];
+import { arrivalsData, ICard } from "../../types";
 
 export const Arrivals: FC<ICard> = () => {
 	return (
