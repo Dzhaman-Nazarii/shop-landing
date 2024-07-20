@@ -1,0 +1,28 @@
+.card_body {
+	display: flex;
+	justify-content: space-between;
+}
+
+.card_image {
+	border-radius: 20px;
+}
+
+.card_title {
+	margin-top: 28px;
+	font-size: 32px;
+	font-weight: 500;
+	line-height: 50px;
+	letter-spacing: -1.28px;
+}
+
+.card_description {
+	color: #5a5555;
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 50px;
+	letter-spacing: -0.96px;
+}
+
+.card_icon {
+	display: flex;
+}
