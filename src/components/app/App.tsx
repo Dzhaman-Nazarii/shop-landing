@@ -4,6 +4,7 @@ import { Promo } from "../promo/Promo";
 import css from "./App.module.css";
 import { Brands } from "../brands/Brands";
 import { Arrivals } from "../arrivals/Arrivals";
+import { Payday } from "../payday/Payday";
 
 export const App: FC = () => {
 	return (
@@ -11,7 +12,12 @@ export const App: FC = () => {
 			<Header />
 			<Promo />
 			<Brands />
-			<Arrivals title={""} description={""} img={""}  />
+			<Arrivals
+				title={""}
+				description={""}
+				img={""}
+			/>
+			<Payday />
 		</section>
 	);
 };
